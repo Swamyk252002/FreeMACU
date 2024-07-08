@@ -11,7 +11,7 @@ public class ExcelDataProvider {
 	 XSSFSheet sheet;
 	public ExcelDataProvider() {
 		
-		File src= new File("C:\\Users\\SwamyKalaveni\\OneDrive - SoftClouds LLC\\Desktop\\MACU\\Framework\\TestData\\Data.xlsx");
+		File src= new File("C:\\Users\\SwamyKalaveni\\git\\repository\\Framework\\TestData\\Data.xlsx");
 		
 		try {
 			
@@ -29,7 +29,6 @@ public class ExcelDataProvider {
 		
 	}
 	public String getStringDate(int sheetIndex,int row,int column) {
-		   
 		   sheet=wb.getSheetAt(sheetIndex);
 		   return sheet.getRow(row).getCell(column).getStringCellValue();
 		    

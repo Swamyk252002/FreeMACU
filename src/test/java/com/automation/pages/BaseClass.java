@@ -7,6 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.automation.utilities.Browserfactory;
 import com.automation.utilities.ConfigDataProvider;
@@ -36,11 +37,14 @@ public class BaseClass {
 		 report.attachReporter(extent);
 		 Reporter.log("Setting Up reports and Test  can be Started",true);
 	}
+	@Parameters({"browser","urlTobeTested"})
 	
 	@BeforeClass
-	public void setup() {
+	public void setup(String browser,String url) {
 		Reporter.log("Application ready",true);
-		driver=Browserfactory.startApplication(driver, config.getBrowser(),config.getStagingURL());
+		//driver=Browserfactory.startApplication(driver, config.getBrowser(),config.getStagingURL());
+		driver=Browserfactory.startApplication(driver, browser,url);
+
 		Reporter.log("Application to Execute ready",true);
 	}
 	@AfterClass
