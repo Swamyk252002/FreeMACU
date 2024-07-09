@@ -11,7 +11,8 @@ public class ExcelDataProvider {
 	 XSSFSheet sheet;
 	public ExcelDataProvider() {
 		
-		File src= new File("C:\\Users\\SwamyKalaveni\\git\\repository\\Framework\\TestData\\Data.xlsx");
+		//File src= new File("C:\\Users\\SwamyKalaveni\\git\\repository\\Framework\\TestData\\Data.xlsx");
+		File src= new File("C:\\Users\\SwamyKalaveni\\OneDrive - SoftClouds LLC\\Documents\\GitHub\\FreeMACU\\TestData\\Data.xlsx");
 		
 		try {
 			

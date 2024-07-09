@@ -30,15 +30,15 @@ public class BaseClass {
 		
 		Reporter.log("Setting Up reports and Test is getting ready ",true);
 		
-		 excel= new ExcelDataProvider();
+		 excel= new ExcelDataProvider(); 
 		 config=new ConfigDataProvider();
 		 ExtentSparkReporter extent= new ExtentSparkReporter(System.getProperty("user.dir")+"/Reports/FreeCRM"+Helper.getCurrentDateTime() +".html");
-		 report= new ExtentReports();
+		 report= new ExtentReports(); 
 		 report.attachReporter(extent);
 		 Reporter.log("Setting Up reports and Test  can be Started",true);
 	}
-	@Parameters({"browser","urlTobeTested"})
-	
+	@Parameters({"browser","urlToBeTested"})
+	//@Parameters("browser")
 	@BeforeClass
 	public void setup(String browser,String url) {
 		Reporter.log("Application ready",true);

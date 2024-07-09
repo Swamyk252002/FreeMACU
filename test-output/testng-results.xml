@@ -38,12 +38,12 @@
       <![CDATA[Browser Executed ready]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-08T10:00:33 IST" name="Suite" finished-at="2024-07-08T10:01:05 IST" duration-ms="31854">
+  <suite started-at="2024-07-09T11:30:46 IST" name="Suite" finished-at="2024-07-09T11:31:18 IST" duration-ms="31580">
     <groups>
     </groups>
-    <test started-at="2024-07-08T10:00:33 IST" name="Test" finished-at="2024-07-08T10:01:05 IST" duration-ms="31854">
+    <test started-at="2024-07-09T11:30:46 IST" name="Test" finished-at="2024-07-09T11:31:18 IST" duration-ms="31580">
       <class name="com.automation.testcases.LoginTest">
-        <test-method is-config="true" signature="setUPSuite()[pri:0, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:32 IST" name="setUPSuite" finished-at="2024-07-08T10:00:33 IST" duration-ms="1119" status="PASS">
+        <test-method is-config="true" signature="setUPSuite()[pri:0, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:30:45 IST" name="setUPSuite" finished-at="2024-07-09T11:30:46 IST" duration-ms="901" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting Up reports and Test is getting ready ]]>
@@ -53,7 +53,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUPSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:33 IST" name="setup" finished-at="2024-07-08T10:00:43 IST" duration-ms="10406" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:30:46 IST" name="setup" finished-at="2024-07-09T11:31:01 IST" duration-ms="15495" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application ready]]>
@@ -63,15 +63,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginApp()[pri:1, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:43 IST" name="loginApp" finished-at="2024-07-08T10:00:44 IST" duration-ms="48" status="PASS">
+        <test-method signature="loginApp()[pri:1, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:01 IST" name="loginApp" finished-at="2024-07-09T11:31:02 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:44 IST" name="tearDownMethod" finished-at="2024-07-08T10:00:45 IST" duration-ms="1055" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:02 IST" name="tearDownMethod" finished-at="2024-07-09T11:31:03 IST" duration-ms="1152" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:1, instance:com.automation.testcases.LoginTest@4218d6a3] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:1, instance:com.automation.testcases.LoginTest@235834f2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -84,15 +84,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="loginApp1()[pri:2, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:45 IST" name="loginApp1" finished-at="2024-07-08T10:00:59 IST" duration-ms="14647" status="PASS">
+        <test-method signature="loginApp1()[pri:2, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:03 IST" name="loginApp1" finished-at="2024-07-09T11:31:12 IST" duration-ms="9080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp1 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:59 IST" name="tearDownMethod" finished-at="2024-07-08T10:00:59 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:12 IST" name="tearDownMethod" finished-at="2024-07-09T11:31:12 IST" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTest.loginApp1()[pri:2, instance:com.automation.testcases.LoginTest@4218d6a3] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTest.loginApp1()[pri:2, instance:com.automation.testcases.LoginTest@235834f2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -105,15 +105,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="loginApp2()[pri:3, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:59 IST" name="loginApp2" finished-at="2024-07-08T10:00:59 IST" duration-ms="2" status="PASS">
+        <test-method signature="loginApp2()[pri:3, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:12 IST" name="loginApp2" finished-at="2024-07-09T11:31:12 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp2 -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:00:59 IST" name="tearDownMethod" finished-at="2024-07-08T10:01:00 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:12 IST" name="tearDownMethod" finished-at="2024-07-09T11:31:12 IST" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp2 status=SUCCESS method=LoginTest.loginApp2()[pri:3, instance:com.automation.testcases.LoginTest@4218d6a3] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp2 status=SUCCESS method=LoginTest.loginApp2()[pri:3, instance:com.automation.testcases.LoginTest@235834f2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -126,7 +126,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginTest@4218d6a3]" started-at="2024-07-08T10:01:00 IST" name="tearDown" finished-at="2024-07-08T10:01:05 IST" duration-ms="5213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginTest@235834f2]" started-at="2024-07-09T11:31:12 IST" name="tearDown" finished-at="2024-07-09T11:31:18 IST" duration-ms="5312" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser ready]]>

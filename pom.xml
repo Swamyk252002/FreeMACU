@@ -49,12 +49,12 @@
         <version>3.3.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>${testng}</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
             
           </suiteXmlFiles>
           <sysstemPropertyVariables>
-			<executionbrowser>${browser}</executionbrowser>
-			<appURL>${urlTobeTested}</appURL>
+			<excutionbrowser>${browser}</excutionbrowser>
+			<appURL>${urlToBeTested}</appURL>
 		  </sysstemPropertyVariables>
         </configuration>
       </plugin>
